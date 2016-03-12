@@ -587,7 +587,7 @@ function! s:ApplyConfig(config) " {{{1
         endif
     endif
 
-    call editorconfig#ApplyHooks(a:config)
+    silent call editorconfig#ApplyHooks(a:config)
 endfunction
 
 " }}}
